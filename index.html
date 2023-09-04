@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>NickKa - WebDev</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	 <meta name = "description" content = "Адаптивная вёрстка под все устройства"/>
+	 <meta name = "keywords" content = "разработка сайтов" />
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script src="jquery.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+	<script src="script.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<nav class="main-block nav">
+		<div class="nav__menu">
+			<div class="nav__menu_collapse">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+			<div class="nav__menu_links">
+				
+				<li><a href="#iCan">Услуги</a></li>
+				<li><a href="#myWorks">Портфолио</a></li>
+				<li><a href="#cost">Стоимость</a></li>
+			</div>
+		</div>
+		<div class="nav__phone">+7(977)101-86-24</div>
+		<div class="nav__button">Заказать звонок</div>
+		<div class="nav__button_collapse">
+			<i class="fa fa-phone-square" aria-hidden="true"></i>
+		</div>
+		
+	</nav>
+	<header class="main-block main">
+		
+		<div class="main__left">
+			<h1>Калгудин Николай</h1>
+			<h4>Web-разработка</h4>
+			<div class="button">Узнать больше</div>
+		</div>
+		<div class="main__right">
+			<img src="img/Nick2.png">
+			<svg class="main__svg">
+			<linearGradient id="linear-gradient">
+				<stop offset="0%" stop-color="#ffab63"/>
+				<stop offset="100%" stop-color="#ff126b"/>
+			</linearGradient>
+			<g>
+			  	<path class="main__svg_max" fill="url(#linear-gradient)" d="M300,680 q -150 -200, 300 -500, q 100 -60, 200 0, q 480 300, 300 500, z" />
+			  	<path class="main__svg_pad" fill="url(#linear-gradient)" d="M100,281 q -70 -100, 150 -250, q 50 -30, 100 0, q 240 150, 150 250, z" />
+			  	<path class="main__svg_min" fill="url(#linear-gradient)" d="M50,281 q -70 -100, 150 -250, q 50 -30, 100 0, q 240 150, 150 250, z" />
+			</g>
+		</svg>
+
+
+		</div>
+	</header>
+	<section>
+		<article class="main-block i-can" id="iCan">
+			<h2>Что я Делаю</h2>
+			<div class="i-can__blocks">
+				<div class="i-can__blocks_dual">
+					<div class="i-can__blocks_single">
+						<img class="i-can__blocks_png" src="img/png1.png">
+						<h4>Вёрстка лендинг-страниц и сайтов</h4>
+					</div>
+					<div class="i-can__blocks_single">
+						<img class="i-can__blocks_png" src="img/png2.png">
+						<h4>Адаптивная вёрстка под все браузеры и устройства</h4>
+					</div>
+				</div>
+				<div class="i-can__blocks_dual">
+					<div class="i-can__blocks_single">
+						<img class="i-can__blocks_png" src="img/png3.png">
+						<h4>Frontend-разработка и програмирование</h4>
+					</div>
+					<div class="i-can__blocks_single">
+						<img class="i-can__blocks_png" src="img/png4	.png">
+						<h4>Исправление и доработка существующей вёрстки</h4>
+					</div>
+				</div>
+			</div>
+			<div class="button button_center ">Узнать стоимость</div>
+		</article>
+		<article class="main-block my-works" id="myWorks">
+			<h2>Примеры моих работ</h2>
+			<div class="my-works__sliding">
+				<img class="my-works__sliding_button-left" src="img/arrow.png">
+				<img class="my-works__sliding_button-right" src="img/arrow.png">
+							
+				<div class="my-works__sliding_block my-works__sliding_prew-block">
+					<a href="https://yandex.ru/">yandex.ru</a>
+				</div>
+				<div class="my-works__sliding_block my-works__sliding_main-block">
+					<a href="https://mail.ru/">mail.ru</a>
+				</div>
+				<div class="my-works__sliding_block my-works__sliding_past-block">
+					<a href="https://lenta.ru/">lenta.ru</a>
+				</div>
+				
+			</div>
+			
+			<div class="button_center button">Заказать проект</div>
+		</article>
+		<article class="main-block cost" id="cost">
+			<h3>Адаптивная вёрстка под все устройства<br>и браузеры от 1000 рублей всего за 4 часа.*</h3>
+			<h6>*Сроки и стоимость могут отличаться от заявленых и рассматриваются индивидуально,<br>в зависимости от сложности задач</h6>
+		</article>
+	</section>
+	<aside></aside><!-- empty -->
+	<footer>20:00 - 20/05/21</footer>
+
+</body>
+</html>
