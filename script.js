@@ -1,12 +1,12 @@
 $(function(){
 	// 20:00  20/05/21
 	var object_mass=[
-	['url(img/jpg1.jpg)','http://mpdis.ru/','mpdis.ru'],
-	['url(img/jpg2.jpg)','https://mail.ru/','mail.ru/'],
-	['url(img/jpg3.jpg)','https://lenta.ru/','lenta.ru'],
-	['url(img/jpg4.jpg)','http://11.201.59.55/login/auth','login/auth/'],
-	['url(img/jpg5.jpg)','https://teams.microsoft.com/','teams'],
-	['url(img/jpg6.jpg)','https://seller.ozon.ru/main','ozon']
+	['url(img/jpg1.jpg)','https://kalgudin.github.io/vizitka/','vizitka'],
+	['url(img/jpg2.jpg)','http://mpdis.ru/','mpdis.ru'],
+	['url(img/jpg3.jpg)','https://kalgudin.github.io/vizitka/','vizitka'],
+	['url(img/jpg4.jpg)','http://mpdis.ru/','mpdis.ru'],
+	['url(img/jpg5.jpg)','https://kalgudin.github.io/vizitka/','vizitka'],
+	['url(img/jpg6.jpg)','http://mpdis.ru/','mpdis.ru']
 	];
 
 	$('.my-works__sliding_button-right').click(function(){
